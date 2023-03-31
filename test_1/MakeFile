@@ -1,0 +1,17 @@
+CC = gcc
+CFLAGS = -Wall -Werror
+
+myProg: b.o a.o c.o
+    $(CC) $(CFLAGS) -o myProg b.o a.o c.o
+
+c.o: c.c c.h b.h 
+    $(CC) $(CFLAGS) -c c.c
+
+b.o: b.c b.h
+    $(CC) $(CFLAGS) -c b.c
+
+a.o: a.c a.h
+    $(CC) $(CFLAGS) -c a.c
+
+clean: 
+    rm -f *.o myProg
