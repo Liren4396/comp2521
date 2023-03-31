@@ -1,0 +1,224 @@
+
+Input size: 10000, Order: random, Program: ./sortIntList
+
+Input size: 10000, Order: random, Program: sort -n
+
+Input size: 10000, Order: sorted, Program: ./sortIntList
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Input size: 10000, Order: sorted, Program: sort -n
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Input size: 10000, Order: reverse, Program: ./sortIntList
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Input size: 10000, Order: reverse, Program: sort -n
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Input size: 20000, Order: random, Program: ./sortIntList
+
+Input size: 20000, Order: random, Program: sort -n
+
+Input size: 20000, Order: sorted, Program: ./sortIntList
+0.01
+0.01
+0.00
+0.00
+0.01
+
+Input size: 20000, Order: sorted, Program: sort -n
+0.00
+0.00
+0.01
+0.00
+0.00
+
+Input size: 20000, Order: reverse, Program: ./sortIntList
+0.01
+0.01
+0.01
+0.00
+0.01
+
+Input size: 20000, Order: reverse, Program: sort -n
+0.01
+0.01
+0.01
+0.01
+0.00
+
+Input size: 50000, Order: random, Program: ./sortIntList
+
+Input size: 50000, Order: random, Program: sort -n
+
+Input size: 50000, Order: sorted, Program: ./sortIntList
+0.02
+0.03
+0.02
+0.03
+0.02
+
+Input size: 50000, Order: sorted, Program: sort -n
+0.03
+0.02
+0.02
+0.02
+0.02
+
+Input size: 50000, Order: reverse, Program: ./sortIntList
+0.03
+0.02
+0.02
+0.03
+0.03
+
+Input size: 50000, Order: reverse, Program: sort -n
+0.03
+0.02
+0.03
+0.02
+0.03
+
+Input size: 100000, Order: random, Program: ./sortIntList
+
+Input size: 100000, Order: random, Program: sort -n
+
+Input size: 100000, Order: sorted, Program: ./sortIntList
+0.06
+0.06
+0.05
+0.05
+0.06
+
+Input size: 100000, Order: sorted, Program: sort -n
+0.05
+0.05
+0.02
+0.05
+0.05
+
+Input size: 100000, Order: reverse, Program: ./sortIntList
+0.05
+0.05
+0.05
+0.05
+0.05
+
+Input size: 100000, Order: reverse, Program: sort -n
+0.06
+0.05
+0.06
+0.05
+0.06
+
+Input size: 200000, Order: random, Program: ./sortIntList
+
+Input size: 200000, Order: random, Program: sort -n
+
+Input size: 200000, Order: sorted, Program: ./sortIntList
+0.12
+0.12
+0.12
+0.12
+0.13
+
+Input size: 200000, Order: sorted, Program: sort -n
+0.14
+0.14
+0.14
+0.13
+0.10
+
+Input size: 200000, Order: reverse, Program: ./sortIntList
+0.11
+0.11
+0.12
+0.12
+0.12
+
+Input size: 200000, Order: reverse, Program: sort -n
+0.15
+0.13
+0.14
+0.14
+0.14
+
+Input size: 500000, Order: random, Program: ./sortIntList
+
+Input size: 500000, Order: random, Program: sort -n
+
+Input size: 500000, Order: sorted, Program: ./sortIntList
+0.30
+0.22
+0.18
+0.30
+0.30
+
+Input size: 500000, Order: sorted, Program: sort -n
+0.34
+0.35
+0.35
+0.33
+0.35
+
+Input size: 500000, Order: reverse, Program: ./sortIntList
+0.33
+0.30
+0.31
+0.29
+0.29
+
+Input size: 500000, Order: reverse, Program: sort -n
+0.38
+0.38
+0.36
+0.38
+0.37
+
+Input size: 1000000, Order: random, Program: ./sortIntList
+
+Input size: 1000000, Order: random, Program: sort -n
+
+Input size: 1000000, Order: sorted, Program: ./sortIntList
+0.54
+0.38
+0.53
+0.52
+0.60
+
+Input size: 1000000, Order: sorted, Program: sort -n
+0.62
+0.71
+0.64
+0.44
+0.61
+
+Input size: 1000000, Order: reverse, Program: ./sortIntList
+0.58
+0.40
+0.59
+0.50
+0.58
+
+Input size: 1000000, Order: reverse, Program: sort -n
+0.72
+0.64
+0.75
+0.70
+0.59

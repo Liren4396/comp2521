@@ -1,0 +1,30 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of n, where n is the size of the tree.
+
+==================
+  BSTreeNumLeaves
+==================
+
+- Worst case time complexity: O(n)
+
+- Explanation: Recursive algorithm is used to traverse every node of binary tree
+
+==================
+BSTreeDeleteLeaves
+==================
+
+- Worst case time complexity: O(n)
+
+- Explanation: Recursive algorithm is used to traverse every node of binary tree
+
+==================
+ BSTreeLevelOrder
+==================
+
+- Worst case time complexity: O(n)
+
+- Explanation: Each node needs to be traversed
+
+

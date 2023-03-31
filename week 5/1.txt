@@ -1,0 +1,18 @@
++ Neville
++ Ron
++ Hermione
++ Harry
++ Luna
+f Neville Ron
+f Neville Harry
+f Neville Hermione
+f Harry Hermione
+f Ron Harry
+f Ron Hermione
+f Hermione Luna
+f Harry Luna
+
+m Harry Hermione
+r Harry
+r Ron
+r Luna
