@@ -1,0 +1,136 @@
+
+========================================================================
+                          Complexity Analysis
+========================================================================
+
+NOTE:
+- Your time complexities should be in big-O notation.
+- For operations that involve only one set, your time complexities should
+  be in terms of n, where n is the number of elements in the set.
+- For operations that involve two sets, your time complexities should be in
+  terms of n and m, where n and m are the number of elements in each of the
+  sets respectively.
+
+
+--------
+SetUnion
+--------
+
+Worst case complexity: O(n * (log(n) + log(m)))
+
+Explanation: whatever it's inorder, preorder or postorder, in avl tree all them, the worst time complexity are log(n).
+because it just needs to find is's deepest height.
+tree_union function use preorder travers, so it needs to read each node and time complexity is O(n).
+the worst case of insert function is to insert at the deepest level of the tree the height is O(log(n)).
+and the insert function is in the preorder travers of union function . so it's O(n*log(n))
+
+
+---------------
+SetIntersection
+---------------
+
+Worst case complexity: O(n * (log(n) + log(m)))
+
+Explanation: same as union function.
+the insert function is in the preorder travers of node_qual_or_not function . so it's O(n*log(n))
+
+
+-------------
+SetDifference
+-------------
+
+Worst case complexity: O(n * (log(n) + log(m)))
+
+Explanation: same as union function.
+the insert function is in the preorder travers of node_qual_or_not function . so it's O(n*log(n))
+---------
+SetEquals
+---------
+
+Worst case complexity: O(n * (log(n) + log(m)))
+
+Explanation: this uses tree_size function , union function and setintersection function
+and tree_size function is O(n).
+union function and setintersection function are O(n * (log(n) + log(m)))
+So it is O(n * (log(n) + log(m)))
+
+
+---------
+SetSubset
+---------
+
+Worst case complexity: O(n * (log(n) + log(m)))
+
+
+Explanation: same as setequals function
+the time complexity of setsize function is smaller than setintersection function
+
+--------
+SetFloor
+--------
+
+Worst case complexity: O(log(n))
+
+Explanation: the worst case of floor should read number as same as deepest level of nodes
+
+
+----------
+SetCeiling
+----------
+
+Worst case complexity: O(log(n))
+
+Explanation: same to the SetFloor function
+
+
+========================================================================
+               Design Documentation for Cursor Operations
+========================================================================
+
+for struct Cursor, I use the same struct tree as Set s (use same address)
+and the second member of cursor is the pointer of largest node in Set s (also same address).
+
+[IMPORTANT]   Main idea : 
+How to do this is add a next pointer and let the tree become a Single linked list (reason I use this struct
+is because is's clear). To do this, I add a father node in Set s's struct which each node pointer to is' parent's node.
+I considered the double linklist because it's the tree looks so much like double linklist(after adding parent pointer).
+But it's useless. Cursor doesn't need to go back. And it will be more confusing for readers to read. 
+
+For the SetCursorNew, I put the smallest node from the Set s and put it as the root of Setcursor's tree
+and malloc a space to store struct cursor
+
+For SetCursorFree, just free the space of struct cursor we malloc. That's enouch.
+
+For SetCursorNext, just read the item from the root(smallest node) and use next pointer to find the next bigger node
+and when it's at biggest node. I just use the biggest pointer in cursor's struct member, and let the current node go
+to NULL.
+
+That's all. :)
+
+PS : I tried three times to solve it. SetCursorNew and  SetCursorFree are same as the above version.
+
+
+
+
+past version of cursor
+
+Main idea
+In the first try I delete the current node (begin from smallest node) and use rotate to keep the tree be avl.
+But it can't solve when there is a new node insert during cursornext.
+
+In the second try I distinguish the avl tree to 4 cases.
+1.largest node ------ UNDEFINED
+2.not leaf node, if right == NULL, return parent node. else go right.
+3.left leaf node, go parent node.
+4.right leaf node ---- use tmp pointer to store the parent node when node go to parent node.
+  and let the right leaf node go to parent node's parent node.
+It still fails, because is's still emulating in inorder traversal. I can't improve case 3 (has a big Vulnerability).
+I putted in the bottom of Set.c, and notes the function.
+
+
+
+
+
+
+
+

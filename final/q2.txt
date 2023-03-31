@@ -1,0 +1,21 @@
+Question 2
+
+(a) What value(s) would be stored in the root node of the 2-3-4 tree
+    after the insertion of the value 28?
+
+    23, 28, 32, 46, 49, 53, 58, 62
+
+    What value(s) would be stored in the node that now contains 28?
+    32
+
+
+
+(b) What value(s) would be stored in the root node of the 2-3-4 tree 
+    after the insertion of the value 50?
+
+    23, 29, 32, 46, 50, 53, 58, 62
+
+    What value(s) would be stored in the node that now contains 50?
+    53
+
+

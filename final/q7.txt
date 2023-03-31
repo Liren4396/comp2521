@@ -1,0 +1,13 @@
+Question 7
+
+(a) What would the array look like after each execution of the inner 
+    for loop?
+
+s o r t i n g i s a w e s o m e (initial state)
+
+
+
+(b) Expain the purpose of the statement `len = min(m, hi - (i + m) + 1);` 
+
+
+

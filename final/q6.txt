@@ -1,0 +1,14 @@
+Question 6
+
+(a) Which item would be chosen as the pivot?
+
+    18 would be chosen as the pivot
+
+(b) What would the array look like after the first three scans?
+
+(Replace the underlines with the array elements)
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+  ___  ___  ___  ___  ___  ___  ___  ___  ___  ____  ____
+
+19 22 23 13 18 11 13 23 10 24 20 25

@@ -1,0 +1,37 @@
+Question 1
+
+(a) How many key comparisons will be performed while searching for the 
+    key 60 in the tree?
+
+    4 key comparisons will be performed while searching.
+
+(b) What is the minimum possible number of key comparisons that would be
+    required in a successful search in the tree?
+
+    1 minimum possible number of key comparisons.
+
+
+    List all the search keys that would cause this.
+    42
+
+
+
+(c) What is the maximum possible number of key comparisons that would be
+    required in a successful search in the tree?
+    6 maximum possible number of key comparisons.
+
+
+    List all the search keys that would cause this.
+    51, 33
+
+
+
+(d) What is the minimum possible number of key comparisons that would be
+    required in an unsuccessful search in the tree?
+
+    4 minimum possible number of key comparisons
+
+    Give two different search key(s) that would cause this.
+    86, 14 
+
+

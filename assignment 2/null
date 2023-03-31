@@ -1,0 +1,32 @@
+
+POLICE ACADEMY 2521
+
+Red alert! A thief is on the run.
+Agents, to your cars. You have 20 hours.
+
+Hour 0
+  T  D1  D2  D3  D4
+  9   8*  2   6   8*
+
+Enter command: Hour 1
+  T  D1  D2  D3  D4
+  4   0   1*  0   0 
+
+Hour 2
+  T  D1  D2  D3  D4
+  9   5   5   0   5 
+
+Hour 3
+  T  D1  D2  D3  D4
+  4   3   5   1*  3 
+
+Hour 4
+  T  D1  D2  D3  D4
+  9   3   3   5   4 
+
+Hour 5
+  T  D1  D2  D3  D4
+  4   4   4   3   9 
+
+D1 caught the thief in darwin (4)
+YOU WIN - THIEF CAUGHT!
